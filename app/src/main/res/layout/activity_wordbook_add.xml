@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="단어장 이름을 입력해주세요"
+        android:id="@+id/wordbook_name"/>
+
+    <Button
+        android:id="@+id/add_wordbook_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="단어장 추가하기" />
+
+</LinearLayout>

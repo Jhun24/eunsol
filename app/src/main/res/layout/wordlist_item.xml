@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="영어 : "
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/word_ENG"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="한글 : "
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/word_KOR"
+        android:textSize="16dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/delete_wordlist"
+        android:text="단어장 삭제"/>
+</LinearLayout>
